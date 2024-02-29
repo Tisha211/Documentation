@@ -2,7 +2,7 @@ repo_name: Tisha211/Documentation
 report_id: 74f26eae4bd29f1c46d046e23eb8198e
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-10T19:21:41+00:00'
+timestamp: '2024-02-29T19:25:31+00:00'
 requested_by: d00p
 provider: github
 branch: main
@@ -129,6 +129,13 @@ tools:
   last_updated_by: Michael Kaufmann
   last_updated_on: 2022-11-15 16:33:06.000000000 Z
   vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 3.2.8
   - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
       (//)
     cve_id: CVE-2023-34092
